@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import router from "./router/router";
 import sequelize from "./database/mysql";
 
-dotenv.config();
+//dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
